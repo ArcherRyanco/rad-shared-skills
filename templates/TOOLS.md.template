@@ -1,0 +1,30 @@
+# TOOLS.md - Your Setup
+
+This file stores your specific configuration, credentials references, and tool notes.
+
+## Credentials
+
+Store secrets in `~/.clawdbot/secrets/` with 600 permissions:
+```bash
+echo "API_KEY=xxx" > ~/.clawdbot/secrets/service.env
+chmod 600 ~/.clawdbot/secrets/service.env
+```
+
+Then reference here:
+- **Service Name:** ~/.clawdbot/secrets/service.env
+
+## Your Integrations
+
+<!-- Add your specific integrations -->
+
+### ClickUp
+- **Token:** ~/.clawdbot/secrets/clickup.env
+- **Team ID:** [your team ID]
+
+### GHL
+- **Token:** ~/.clawdbot/secrets/ghl.env
+- **Location ID:** [your location ID]
+
+## Notes
+
+<!-- Add tool-specific notes for your workflow -->
